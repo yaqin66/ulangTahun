@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Countdown from './component/Countdown';
 import TebakTebakan from './component/TebakTebakan';
 import KartuUcapan from './component/KartuUcapan';
+import LoveQuestion from './component/LoveQuestion';
 
 const App = () => {
   const [currentMenu, setCurrentMenu] = useState("countdown");
