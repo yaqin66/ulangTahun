@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react';
 
 const KartuUcapan = () => {
     const texts = [
-        `Selamat Ulang Tahun! 🎂 Semoga di hari spesialmu ini, segala impianmu segera terwujud.`,
-        `Happy Birthday, Cinta! 🌟 Terima kasih telah menemani hari-hariku dengan penuh cinta.`,
-        `Selamat bertambah usia, Sayangku! 🎊 Semoga kebahagiaan selalu menyertaimu.`,
-        `Selamat Ulang Tahun! 🎉 Semoga hari ini penuh kebahagiaan dan mimpi indah yang menjadi kenyataan.`,
-        `Happy Birthday! 🌸 Terima kasih telah menjadi cahaya dalam setiap langkah hidupku.`,
-        `Selamat bertambah usia, Sayang! 💖 Semoga setiap harimu dipenuhi cinta dan kebahagiaan.`,
-        `Di hari spesial ini, aku hanya ingin mengucapkan: Selamat Ulang Tahun! 🎂 Semoga impianmu selalu terjaga dan tercapai.`,
-        `Selamat Ulang Tahun, Cintaku! 🌟 Semoga tahun ini membawa kebahagiaan yang melimpah dan kesehatan selalu menyertaimu.`,
-        `Happy Birthday! 🎊 Kamu adalah anugerah terindah dalam hidupku. Terima kasih telah hadir di hidupku.`,
-        `Selamat bertambah usia! 🌷 Semoga setiap detik di tahun yang baru ini membawa kebahagiaan dan petualangan yang luar biasa.`,
-        `Selamat Ulang Tahun! 💫 Semoga setiap impianmu menjadi kenyataan dan setiap langkahmu selalu diberkahi.`,
-        `Happy Birthday! 💛 Semoga senyumanmu selalu indah dan hari-harimu selalu dipenuhi cinta dan kebahagiaan.`,
-        `Selamat bertambah usia, Sayang! 🌼 Terima kasih telah menjadi inspirasi dan semangat dalam setiap hari-hariku.`,
-    ];
+        `Aku bersyukur setiap hari karena kamu ada di hidupku. Kamu adalah anugerah terindah yang pernah aku miliki.`,
+        `Kamu adalah alasan di balik senyumku setiap pagi dan kedamaian dalam setiap malamku. Aku cinta kamu, lebih dari kata-kata yang bisa ungkapkan.`,
+        `Aku tidak membutuhkan alasan untuk mencintaimu. Semua tentangmu adalah sesuatu yang membuat hidupku lebih berarti.`,
+        `Cintaku untukmu tidak mengenal batas waktu. Kamu adalah rumahku, tempat hatiku selalu ingin kembali.`,
+        `Bersamamu, hidupku terasa lebih berwarna dan penuh makna. Terima kasih telah menjadi bagian terpenting dalam hidupku.`,
+        `Aku ingin kamu tahu, bahwa tidak ada satu hari pun aku lewatkan tanpa mencintaimu lebih dari sebelumnya.`,
+        `Kamu bukan hanya orang yang aku cintai, tapi juga sahabat terbaikku dan pendukung terhebat dalam hidupku.`,
+        `Di setiap detik, di setiap tarikan napas, kamu adalah yang selalu aku pikirkan. Kamu adalah segalanya bagiku.`,
+        `Aku merasa beruntung karena Tuhan mengirimkan kamu ke hidupku. Terima kasih sudah melengkapi aku dengan sempurna.`,
+        `Cinta ini lebih dari sekadar kata-kata; ini adalah janji yang aku pegang erat, untuk selalu ada di sampingmu, apa pun yang terjadi.`,
+        `Setiap kali aku melihatmu, aku merasa dunia ini jauh lebih indah. Kamu adalah keajaiban yang membuat segalanya terasa benar.`,
+        `Aku mencintaimu tidak hanya karena siapa kamu, tapi karena siapa aku ketika bersamamu.`,
+        `Terima kasih telah menjadi tempat aku menemukan ketenangan, kebahagiaan, dan cinta yang tak tergantikan.`
+      ];
 
     const [displayedText, setDisplayedText] = useState(""); // Teks yang sedang ditampilkan
     const [randomText] = useState(
@@ -41,8 +41,8 @@ const KartuUcapan = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-yellow-400 to-orange-500 flex flex-col items-center justify-center text-white text-center px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Selamat Ulang Tahun 🎉</h1>
-            <p className="text-lg md:text-xl font-semibold leading-relaxed">
+            <h1 className="text-4xl md:text-xl font-bold mb-6">Yang aku jujur ga pinter rangkai kata-kata cinta buat kamu, tapi aku nyari di google yang menurut aku mengambarkan kamu banget:)</h1>
+            <p className="text-lg md:text-4xl font-semibold leading-relaxed">
                 {displayedText}
             </p>
         </div>
