@@ -27,9 +27,16 @@ const App = () => {
                 >
                   Tebak-Tebakan
                 </button>
+                 <button
+                  className={`px-4 py-2 rounded-lg ${currentMenu === "lovequestion" ? "bg-gray-600" : ""}`}
+                  onClick={() => setCurrentMenu("lovequestion")}
+                >
+                  Love Question
+                </button>
               </nav>
               {currentMenu === "countdown" && <Countdown />}
               {currentMenu === "tebak" && <TebakTebakan />}
+              {currentMenu === "lovequestion" && <LoveQuestion />}
             </div>
           }
         />
